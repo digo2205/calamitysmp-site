@@ -19553,7 +19553,14 @@ const __iconNode = [
 ];
 const X = createLucideIcon("x", __iconNode);
 
-function Sidebar() {
+function Footer() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "border-t border-gray-200 bg-gray-50 px-4 py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-screen-2xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-between", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-sm text-gray-600", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(FolderCode, { className: "w-4 h-4" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Desenvolvido por LegionLabs" })
+  ] }) }) }) });
+}
+
+function Sidebar({ mobile }) {
   const location = useLocation();
   const menuItems = [
     { icon: House, label: "Bem-vindo(a) ao CalamitySMP!", path: "/" }
@@ -19583,42 +19590,88 @@ function Sidebar() {
       ]
     }
   ];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("aside", { className: "w-64 bg-gray-50 border border-gray-200 flex flex-col rounded-xl fixed top-20 left-8 h-[calc(80vh)] shadow-lg", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1 overflow-y-auto p-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { className: "space-y-6", children: [
-    menuItems.map((item, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      Link,
-      {
-        to: item.path,
-        className: `flex items-center gap-3 px-3 py-2 rounded-md transition-colors ${location.pathname === item.path ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`,
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "w-4 h-4" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-medium", children: item.label })
-        ]
-      },
-      index
-    )),
-    sections.map((section, sectionIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xs font-semibold text-gray-500 uppercase tracking-wider px-3", children: section.title }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-1", children: section.items.map((item, itemIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        Link,
-        {
-          to: item.path,
-          className: `flex items-center gap-3 px-3 py-2 rounded-md cursor-pointer transition-colors ${location.pathname === item.path ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`,
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "w-4 h-4" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm", children: item.label })
-          ]
-        },
-        itemIndex
-      )) })
-    ] }, sectionIndex))
-  ] }) }) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "aside",
+    {
+      className: `
+        flex flex-col overflow-y-auto
+        ${mobile ? "w-60 h-full bg-transparent p-0" : "w-64 bg-gray-50 border border-gray-200 rounded-xl fixed top-20 left-8 h-[calc(80vh)] p-4 shadow-lg"}
+      `,
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { className: "space-y-6", children: [
+        menuItems.map((item, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Link,
+          {
+            to: item.path,
+            className: `flex items-center gap-3 px-3 py-2 rounded-md transition-colors ${location.pathname === item.path ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`,
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "w-4 h-4" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm font-medium", children: item.label })
+            ]
+          },
+          index
+        )),
+        sections.map((section, sectionIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-xs font-semibold text-gray-500 uppercase tracking-wider px-3", children: section.title }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-1", children: section.items.map((item, itemIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            Link,
+            {
+              to: item.path,
+              className: `flex items-center gap-3 px-3 py-2 rounded-md cursor-pointer transition-colors ${location.pathname === item.path ? "text-blue-600 bg-blue-50" : "text-gray-600 hover:text-gray-900 hover:bg-gray-100"}`,
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(item.icon, { className: "w-4 h-4" }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm", children: item.label })
+              ]
+            },
+            itemIndex
+          )) })
+        ] }, sectionIndex))
+      ] })
+    }
+  );
 }
 
-function Footer() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "border-t border-gray-200 bg-gray-50 px-4 py-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-screen-2xl mx-auto", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-between", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-sm text-gray-600", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx(FolderCode, { className: "w-4 h-4" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Desenvolvido por LegionLabs" })
-  ] }) }) }) });
+function Layout({ children }) {
+  const [sidebarOpen, setSidebarOpen] = reactExports.useState(false);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex min-h-screen", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:flex md:flex-col md:w-64", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Sidebar, {}) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        className: `fixed inset-0 z-50 flex transition-opacity duration-300 ${sidebarOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`,
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-0 bg-black/50",
+              onClick: () => setSidebarOpen(false)
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative w-60 h-full flex flex-col bg-white left-0", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                className: "w-full px-4 py-3 bg-gray-200 rounded-r-full shadow-sm hover:bg-gray-300 transition-colors z-50",
+                onClick: () => setSidebarOpen(false),
+                children: "Fechar"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Sidebar, { mobile: true })
+          ] })
+        ]
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex-1 p-4 md:p-8", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "button",
+        {
+          className: "md:hidden mb-4 px-3 py-2 bg-gray-200 rounded-full shadow-sm hover:bg-gray-300 transition-colors",
+          onClick: () => setSidebarOpen(true),
+          children: "Menu"
+        }
+      ),
+      children
+    ] })
+  ] });
 }
 
 function r(e){var t,f,n="";if("string"==typeof e||"number"==typeof e)n+=e;else if("object"==typeof e)if(Array.isArray(e)){var o=e.length;for(t=0;t<o;t++)e[t]&&(f=r(e[t]))&&(n&&(n+=" "),n+=f);}else for(f in e)e[f]&&(n&&(n+=" "),n+=f);return n}function clsx(){for(var e,t,f=0,n="",o=arguments.length;f<o;f++)(e=arguments[f])&&(t=r(e))&&(n&&(n+=" "),n+=t);return n}
@@ -23263,20 +23316,17 @@ function DefinicoesPage() {
 function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(HashRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-white flex flex-col", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-1", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Sidebar, {}),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("main", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(WelcomePage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/lore", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HistoriaPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/diretrizes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DiretrizesPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/faq", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FAQPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/definicoes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DefinicoesPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/itens-banidos", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ItensBanidosPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/redes-sociais", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RedesSociaisPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/dicas/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) })
-      ] }) })
-    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Layout, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Routes, { children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(WelcomePage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/lore", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HistoriaPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/diretrizes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DiretrizesPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/faq", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FAQPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/definicoes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DefinicoesPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/itens-banidos", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ItensBanidosPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/redes-sociais", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RedesSociaisPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/dicas/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) })
+    ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
   ] }) });
 }
