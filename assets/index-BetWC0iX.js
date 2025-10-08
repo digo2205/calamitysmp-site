@@ -19087,31 +19087,11 @@ const createLucideIcon = (iconName, iconNode) => {
  */
 
 
-const __iconNode$s = [
+const __iconNode$r = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
   ["path", { d: "m4.9 4.9 14.2 14.2", key: "1m5liu" }]
 ];
-const Ban = createLucideIcon("ban", __iconNode$s);
-
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-const __iconNode$r = [
-  ["path", { d: "M10 2v8l3-3 3 3V2", key: "sqw3rj" }],
-  [
-    "path",
-    {
-      d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
-      key: "k3hazp"
-    }
-  ]
-];
-const BookMarked = createLucideIcon("book-marked", __iconNode$r);
+const Ban = createLucideIcon("ban", __iconNode$r);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19122,6 +19102,26 @@ const BookMarked = createLucideIcon("book-marked", __iconNode$r);
 
 
 const __iconNode$q = [
+  ["path", { d: "M10 2v8l3-3 3 3V2", key: "sqw3rj" }],
+  [
+    "path",
+    {
+      d: "M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20",
+      key: "k3hazp"
+    }
+  ]
+];
+const BookMarked = createLucideIcon("book-marked", __iconNode$q);
+
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+
+const __iconNode$p = [
   ["path", { d: "M12 7v14", key: "1akyts" }],
   ["path", { d: "M16 12h2", key: "7q9ll5" }],
   ["path", { d: "M16 8h2", key: "msurwy" }],
@@ -19135,7 +19135,7 @@ const __iconNode$q = [
   ["path", { d: "M6 12h2", key: "32wvfc" }],
   ["path", { d: "M6 8h2", key: "30oboj" }]
 ];
-const BookOpenText = createLucideIcon("book-open-text", __iconNode$q);
+const BookOpenText = createLucideIcon("book-open-text", __iconNode$p);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19145,8 +19145,8 @@ const BookOpenText = createLucideIcon("book-open-text", __iconNode$q);
  */
 
 
-const __iconNode$p = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
-const Check = createLucideIcon("check", __iconNode$p);
+const __iconNode$o = [["path", { d: "M20 6 9 17l-5-5", key: "1gmf2c" }]];
+const Check = createLucideIcon("check", __iconNode$o);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19156,8 +19156,8 @@ const Check = createLucideIcon("check", __iconNode$p);
  */
 
 
-const __iconNode$o = [["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]];
-const ChevronLeft = createLucideIcon("chevron-left", __iconNode$o);
+const __iconNode$n = [["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]];
+const ChevronLeft = createLucideIcon("chevron-left", __iconNode$n);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19167,23 +19167,8 @@ const ChevronLeft = createLucideIcon("chevron-left", __iconNode$o);
  */
 
 
-const __iconNode$n = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$n);
-
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-const __iconNode$m = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
-  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
-];
-const CircleAlert = createLucideIcon("circle-alert", __iconNode$m);
+const __iconNode$m = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$m);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19194,10 +19179,11 @@ const CircleAlert = createLucideIcon("circle-alert", __iconNode$m);
 
 
 const __iconNode$l = [
-  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
-  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
+  ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
 ];
-const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$l);
+const CircleAlert = createLucideIcon("circle-alert", __iconNode$l);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19208,11 +19194,10 @@ const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$l);
 
 
 const __iconNode$k = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3", key: "1u773s" }],
-  ["path", { d: "M12 17h.01", key: "p32p05" }]
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
 ];
-const CircleHelp = createLucideIcon("circle-help", __iconNode$k);
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$k);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19224,10 +19209,10 @@ const CircleHelp = createLucideIcon("circle-help", __iconNode$k);
 
 const __iconNode$j = [
   ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m15 9-6 6", key: "1uzhvr" }],
-  ["path", { d: "m9 9 6 6", key: "z0biqf" }]
+  ["path", { d: "M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3", key: "1u773s" }],
+  ["path", { d: "M12 17h.01", key: "p32p05" }]
 ];
-const CircleX = createLucideIcon("circle-x", __iconNode$j);
+const CircleHelp = createLucideIcon("circle-help", __iconNode$j);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19238,11 +19223,11 @@ const CircleX = createLucideIcon("circle-x", __iconNode$j);
 
 
 const __iconNode$i = [
-  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
-  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
-  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "m15 9-6 6", key: "1uzhvr" }],
+  ["path", { d: "m9 9 6 6", key: "z0biqf" }]
 ];
-const ExternalLink = createLucideIcon("external-link", __iconNode$i);
+const CircleX = createLucideIcon("circle-x", __iconNode$i);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19253,13 +19238,11 @@ const ExternalLink = createLucideIcon("external-link", __iconNode$i);
 
 
 const __iconNode$h = [
-  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
-  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
-  ["path", { d: "M10 9H8", key: "b1mrlr" }],
-  ["path", { d: "M16 13H8", key: "t4e002" }],
-  ["path", { d: "M16 17H8", key: "z1uh3a" }]
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
 ];
-const FileText = createLucideIcon("file-text", __iconNode$h);
+const ExternalLink = createLucideIcon("external-link", __iconNode$h);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19270,17 +19253,13 @@ const FileText = createLucideIcon("file-text", __iconNode$h);
 
 
 const __iconNode$g = [
-  ["path", { d: "M10 10.5 8 13l2 2.5", key: "m4t9c1" }],
-  ["path", { d: "m14 10.5 2 2.5-2 2.5", key: "14w2eb" }],
-  [
-    "path",
-    {
-      d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z",
-      key: "1u1bxd"
-    }
-  ]
+  ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
+  ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }],
+  ["path", { d: "M10 9H8", key: "b1mrlr" }],
+  ["path", { d: "M16 13H8", key: "t4e002" }],
+  ["path", { d: "M16 17H8", key: "z1uh3a" }]
 ];
-const FolderCode = createLucideIcon("folder-code", __iconNode$g);
+const FileText = createLucideIcon("file-text", __iconNode$g);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19291,12 +19270,17 @@ const FolderCode = createLucideIcon("folder-code", __iconNode$g);
 
 
 const __iconNode$f = [
-  ["line", { x1: "4", x2: "20", y1: "9", y2: "9", key: "4lhtct" }],
-  ["line", { x1: "4", x2: "20", y1: "15", y2: "15", key: "vyu0kd" }],
-  ["line", { x1: "10", x2: "8", y1: "3", y2: "21", key: "1ggp8o" }],
-  ["line", { x1: "16", x2: "14", y1: "3", y2: "21", key: "weycgp" }]
+  ["path", { d: "M10 10.5 8 13l2 2.5", key: "m4t9c1" }],
+  ["path", { d: "m14 10.5 2 2.5-2 2.5", key: "14w2eb" }],
+  [
+    "path",
+    {
+      d: "M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2z",
+      key: "1u1bxd"
+    }
+  ]
 ];
-const Hash = createLucideIcon("hash", __iconNode$f);
+const FolderCode = createLucideIcon("folder-code", __iconNode$f);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19307,15 +19291,12 @@ const Hash = createLucideIcon("hash", __iconNode$f);
 
 
 const __iconNode$e = [
-  [
-    "path",
-    {
-      d: "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
-      key: "c3ymky"
-    }
-  ]
+  ["line", { x1: "4", x2: "20", y1: "9", y2: "9", key: "4lhtct" }],
+  ["line", { x1: "4", x2: "20", y1: "15", y2: "15", key: "vyu0kd" }],
+  ["line", { x1: "10", x2: "8", y1: "3", y2: "21", key: "1ggp8o" }],
+  ["line", { x1: "16", x2: "14", y1: "3", y2: "21", key: "weycgp" }]
 ];
-const Heart = createLucideIcon("heart", __iconNode$e);
+const Hash = createLucideIcon("hash", __iconNode$e);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19326,16 +19307,15 @@ const Heart = createLucideIcon("heart", __iconNode$e);
 
 
 const __iconNode$d = [
-  ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
   [
     "path",
     {
-      d: "M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
-      key: "1d0kgt"
+      d: "M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z",
+      key: "c3ymky"
     }
   ]
 ];
-const House = createLucideIcon("house", __iconNode$d);
+const Heart = createLucideIcon("heart", __iconNode$d);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19346,11 +19326,16 @@ const House = createLucideIcon("house", __iconNode$d);
 
 
 const __iconNode$c = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "M12 16v-4", key: "1dtifu" }],
-  ["path", { d: "M12 8h.01", key: "e9boi3" }]
+  ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
+  [
+    "path",
+    {
+      d: "M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+      key: "1d0kgt"
+    }
+  ]
 ];
-const Info = createLucideIcon("info", __iconNode$c);
+const House = createLucideIcon("house", __iconNode$c);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19361,17 +19346,11 @@ const Info = createLucideIcon("info", __iconNode$c);
 
 
 const __iconNode$b = [
-  [
-    "path",
-    {
-      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
-      key: "1gvzjb"
-    }
-  ],
-  ["path", { d: "M9 18h6", key: "x1upvd" }],
-  ["path", { d: "M10 22h4", key: "ceow96" }]
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["path", { d: "M12 16v-4", key: "1dtifu" }],
+  ["path", { d: "M12 8h.01", key: "e9boi3" }]
 ];
-const Lightbulb = createLucideIcon("lightbulb", __iconNode$b);
+const Info = createLucideIcon("info", __iconNode$b);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19382,12 +19361,17 @@ const Lightbulb = createLucideIcon("lightbulb", __iconNode$b);
 
 
 const __iconNode$a = [
-  ["path", { d: "M11 18H3", key: "n3j2dh" }],
-  ["path", { d: "m15 18 2 2 4-4", key: "1szwhi" }],
-  ["path", { d: "M16 12H3", key: "1a2rj7" }],
-  ["path", { d: "M16 6H3", key: "1wxfjs" }]
+  [
+    "path",
+    {
+      d: "M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5",
+      key: "1gvzjb"
+    }
+  ],
+  ["path", { d: "M9 18h6", key: "x1upvd" }],
+  ["path", { d: "M10 22h4", key: "ceow96" }]
 ];
-const ListCheck = createLucideIcon("list-check", __iconNode$a);
+const Lightbulb = createLucideIcon("lightbulb", __iconNode$a);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19398,6 +19382,22 @@ const ListCheck = createLucideIcon("list-check", __iconNode$a);
 
 
 const __iconNode$9 = [
+  ["path", { d: "M11 18H3", key: "n3j2dh" }],
+  ["path", { d: "m15 18 2 2 4-4", key: "1szwhi" }],
+  ["path", { d: "M16 12H3", key: "1a2rj7" }],
+  ["path", { d: "M16 6H3", key: "1wxfjs" }]
+];
+const ListCheck = createLucideIcon("list-check", __iconNode$9);
+
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+
+const __iconNode$8 = [
   ["path", { d: "M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4", key: "re6nr2" }],
   ["path", { d: "M2 6h4", key: "aawbzj" }],
   ["path", { d: "M2 10h4", key: "l0bgd4" }],
@@ -19411,24 +19411,7 @@ const __iconNode$9 = [
     }
   ]
 ];
-const NotebookPen = createLucideIcon("notebook-pen", __iconNode$9);
-
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-const __iconNode$8 = [
-  ["path", { d: "m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z", key: "7g6ntu" }],
-  ["path", { d: "m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z", key: "ijws7r" }],
-  ["path", { d: "M7 21h10", key: "1b0cd5" }],
-  ["path", { d: "M12 3v18", key: "108xh3" }],
-  ["path", { d: "M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2", key: "3gwbw2" }]
-];
-const Scale = createLucideIcon("scale", __iconNode$8);
+const NotebookPen = createLucideIcon("notebook-pen", __iconNode$8);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19439,6 +19422,23 @@ const Scale = createLucideIcon("scale", __iconNode$8);
 
 
 const __iconNode$7 = [
+  ["path", { d: "m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z", key: "7g6ntu" }],
+  ["path", { d: "m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z", key: "ijws7r" }],
+  ["path", { d: "M7 21h10", key: "1b0cd5" }],
+  ["path", { d: "M12 3v18", key: "108xh3" }],
+  ["path", { d: "M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2", key: "3gwbw2" }]
+];
+const Scale = createLucideIcon("scale", __iconNode$7);
+
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+
+const __iconNode$6 = [
   ["path", { d: "m12.5 17-.5-1-.5 1h1z", key: "3me087" }],
   [
     "path",
@@ -19450,23 +19450,7 @@ const __iconNode$7 = [
   ["circle", { cx: "15", cy: "12", r: "1", key: "1tmaij" }],
   ["circle", { cx: "9", cy: "12", r: "1", key: "1vctgf" }]
 ];
-const Skull = createLucideIcon("skull", __iconNode$7);
-
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-const __iconNode$6 = [
-  ["polyline", { points: "14.5 17.5 3 6 3 3 6 3 17.5 14.5", key: "1hfsw2" }],
-  ["line", { x1: "13", x2: "19", y1: "19", y2: "13", key: "1vrmhu" }],
-  ["line", { x1: "16", x2: "20", y1: "16", y2: "20", key: "1bron3" }],
-  ["line", { x1: "19", x2: "21", y1: "21", y2: "19", key: "13pww6" }]
-];
-const Sword = createLucideIcon("sword", __iconNode$6);
+const Skull = createLucideIcon("skull", __iconNode$6);
 
 /**
  * @license lucide-react v0.511.0 - ISC
@@ -19581,7 +19565,7 @@ function Sidebar() {
         { icon: BookOpenText, label: "História", path: "/principal/lore" },
         { icon: ListCheck, label: "Diretrizes", path: "/principal/diretrizes" },
         { icon: CircleHelp, label: "FAQ", path: "/principal/faq" },
-        { icon: BookMarked, label: "Definições", path: "/definicoes/hard-rp" },
+        { icon: BookMarked, label: "Definições", path: "/principal/definicoes" },
         { icon: Ban, label: "Itens Banidos", path: "/principal/itens-banidos" },
         { icon: Hash, label: "Redes Sociais", path: "/principal/redes-sociais" }
       ]
@@ -22510,10 +22494,10 @@ function FAQPage() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Diretrizes" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/itens-banidos", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/definicoes", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Definições" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
         ] }) }) })
@@ -22569,11 +22553,11 @@ function ItensBanidosPage() {
         " Reporte imediatamente à administração. Não tente usar ou esconder o item, pois isso pode resultar em punições adicionais."
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/faq", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/definicoes", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "FAQ" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Definições" })
           ] })
         ] }) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/redes-sociais", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
@@ -23128,20 +23112,14 @@ function FormulariosPage() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/definicoes/hard-rp", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Hard-RP" })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
-        ] }) }) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 opacity-50", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Última página" }) }) }) })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gray-200" })
     ] })
   ] }) });
 }
 
-function HardRPPage() {
+function DefinicoesPage() {
   const examples = [
     {
       type: "correct",
@@ -23263,380 +23241,21 @@ function HardRPPage() {
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/inscricao/formularios", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/faq", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Formulários" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "FAQ" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/definicoes/meta-gaming", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/itens-banidos", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Meta-gaming" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
         ] }) }) })
       ] })
-    ] })
-  ] }) });
-}
-
-function MetaGamingPage() {
-  const examples = [
-    {
-      type: "violation",
-      title: "❌ Violação de Meta-gaming",
-      scenario: "Você viu no Discord que haverá um ataque à sua cidade hoje à noite",
-      action: "Você prepara defesas e avisa outros jogadores sem justificativa roleplay",
-      consequence: "Isso é meta-gaming pois usa informação OOC",
-      color: "bg-red-50 border-red-200"
-    },
-    {
-      type: "correct",
-      title: "✅ Comportamento Correto",
-      scenario: "Você viu no Discord que haverá um ataque à sua cidade hoje à noite",
-      action: "Você ignora essa informação e age apenas com base no que seu personagem sabe",
-      consequence: "Seu personagem pode ser pego de surpresa, mas é o correto",
-      color: "bg-green-50 border-green-200"
-    }
-  ];
-  const sources = [
-    {
-      source: "Discord/Chat OOC",
-      examples: ["Conversas sobre eventos futuros", "Discussões sobre outros jogadores", "Informações sobre localização de itens"]
-    },
-    {
-      source: "Streams/Vídeos",
-      examples: ["Assistir stream de outro jogador", "Ver vídeos sobre o servidor", "Informações sobre bases secretas"]
-    },
-    {
-      source: "Interface do Jogo",
-      examples: ["Nametags de jogadores", "Coordenadas no F3", "Informações do TAB"]
-    },
-    {
-      source: "Comunicação Externa",
-      examples: ["WhatsApp/Telegram", "Chamadas de voz", "Redes sociais"]
-    }
-  ];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-screen-2xl py-8 px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto space-y-6", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "mb-6 space-y-3", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center", children: "🧠" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold text-gray-900", children: "Meta-gaming" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Button, { variant: "outline", size: "sm", className: "gap-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "💬" }),
-        "Perguntar"
-      ] })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 bg-red-50 border-red-200", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(TriangleAlert, { className: "w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-red-800", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-semibold mb-1", children: "Definição" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Meta-gaming é o uso de informações obtidas fora do contexto do roleplay (OOC - Out of Character) para beneficiar seu personagem no jogo." })
-        ] })
-      ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "prose max-w-none", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4", children: "Por que é Proibido?" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "🎭 Quebra a Imersão" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "Meta-gaming destrói a experiência de roleplay ao misturar conhecimento do jogador com conhecimento do personagem." })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "⚖️ Vantagem Injusta" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "Dá vantagens desleais sobre outros jogadores que seguem as regras e mantêm separação entre IC e OOC." })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "🤝 Prejudica Outros" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700", children: "Pode arruinar planos, surpresas e momentos especiais de outros jogadores." })
-          ] })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Fontes Comuns de Meta-gaming" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: sources.map((source, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: source.source }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "text-gray-700 space-y-1", children: source.examples.map((example, exampleIndex) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-red-500 mt-1", children: "•" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-sm", children: example })
-          ] }, exampleIndex)) })
-        ] }, index)) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Exemplos Práticos" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: examples.map((example, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: `p-4 ${example.color}`, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-semibold mb-2", children: example.title }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Situação:" }),
-              " ",
-              example.scenario
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Ação:" }),
-              " ",
-              example.action
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Resultado:" }),
-              " ",
-              example.consequence
-            ] })
-          ] })
-        ] }, index)) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Como Evitar" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4 bg-blue-50 border-blue-200", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-semibold text-blue-800 mb-3", children: "💡 Dicas Práticas" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("ul", { className: "text-sm text-blue-700 space-y-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-              "• ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Separação Mental:" }),
-              " Mantenha conhecimento do jogador separado do personagem"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-              "• ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Justificativa IC:" }),
-              " Sempre tenha uma razão roleplay para suas ações"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-              "• ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Evite Fontes OOC:" }),
-              " Minimize exposição a informações externas durante o jogo"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-              "• ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Comunique Dúvidas:" }),
-              " Pergunte aos admins se não tem certeza"
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { children: [
-              "• ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Aceite Consequências:" }),
-              " Deixe seu personagem falhar às vezes"
-            ] })
-          ] })
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4 bg-amber-50 border-amber-200", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-semibold text-amber-800 mb-2", children: "⚠️ Punições" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-amber-700 space-y-1", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Primeira vez:" }),
-            " Advertência e orientação"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Reincidência:" }),
-            " Kick temporário"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Casos graves:" }),
-            " Ban temporário (1-7 dias)"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Casos extremos:" }),
-            " Ban permanente"
-          ] })
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/definicoes/hard-rp", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Hard-RP" })
-          ] })
-        ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/definicoes/random-death-match", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Random Death Match" })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
-        ] }) }) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gray-200", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Atualizado há 7 dias" }) })
-    ] })
-  ] }) });
-}
-
-function RandomDeathMatchPage() {
-  const scenarios = [
-    {
-      type: "rdm",
-      title: "❌ RDM - Proibido",
-      situation: "Você vê um jogador desconhecido caminhando",
-      action: "Você o ataca sem motivo ou interação prévia",
-      reason: "Não há justificativa roleplay para o ataque",
-      color: "bg-red-50 border-red-200"
-    },
-    {
-      type: "valid",
-      title: "✅ PvP Válido",
-      situation: "Um jogador roubou seus itens e fugiu",
-      action: "Você o persegue e inicia combate para recuperar seus bens",
-      reason: "Há justificativa clara e desenvolvimento roleplay",
-      color: "bg-green-50 border-green-200"
-    },
-    {
-      type: "rdm",
-      title: "❌ RDM - Proibido",
-      situation: "Você não gosta do personagem de outro jogador",
-      action: "Você o mata porque 'não gosta dele'",
-      reason: "Antipatia pessoal não é motivo válido para PvP",
-      color: "bg-red-50 border-red-200"
-    },
-    {
-      type: "valid",
-      title: "✅ PvP Válido",
-      situation: "Dois grupos têm conflito territorial estabelecido",
-      action: "Membros dos grupos se enfrentam na área disputada",
-      reason: "Conflito desenvolvido através de roleplay",
-      color: "bg-green-50 border-green-200"
-    }
-  ];
-  const validReasons = [
-    "Autodefesa legítima",
-    "Defesa de propriedade ou território",
-    "Conflitos desenvolvidos através de roleplay",
-    "Guerras entre facções/grupos",
-    "Vingança por ações passadas (com desenvolvimento)",
-    "Defesa de aliados ou familiares",
-    "Cumprimento de contratos/missões estabelecidas no RP"
-  ];
-  const invalidReasons = [
-    "Tédio ou vontade de lutar",
-    "Antipatia pessoal (OOC)",
-    "Teste de equipamentos/habilidades",
-    "Provocação sem contexto",
-    "Roubo de itens sem roleplay",
-    "Mata por diversão",
-    "Conflitos baseados em informações OOC"
-  ];
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-screen-2xl py-8 px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto space-y-6", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "mb-6 space-y-3", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center", children: "⚔️" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold text-gray-900", children: "Random Death Match (RDM)" })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Button, { variant: "outline", size: "sm", className: "gap-2", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "💬" }),
-        "Perguntar"
-      ] })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 bg-red-50 border-red-200", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(TriangleAlert, { className: "w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-red-800", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-semibold mb-1", children: "Definição" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Random Death Match (RDM) é o ato de atacar ou matar outro jogador sem justificativa adequada de roleplay ou desenvolvimento de história." })
-        ] })
-      ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "prose max-w-none", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4", children: "Regra Fundamental" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 bg-blue-50 border-blue-200", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Sword, { className: "w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-blue-800", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Todo PvP deve ter justificativa roleplay válida." }),
-            " Não é permitido atacar outros jogadores sem motivo desenvolvido através de interações no jogo."
-          ] })
-        ] }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Motivos Válidos para PvP" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-lg font-semibold text-green-700 mb-3 flex items-center gap-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheckBig, { className: "w-5 h-5" }),
-            "Justificativas Aceitas"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: validReasons.map((reason, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-sm text-gray-700", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-green-500 mt-1", children: "✓" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: reason })
-          ] }, index)) })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Motivos Inválidos (RDM)" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("h3", { className: "text-lg font-semibold text-red-700 mb-3 flex items-center gap-2", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(CircleX, { className: "w-5 h-5" }),
-            "Justificativas Rejeitadas"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: invalidReasons.map((reason, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs("li", { className: "flex items-start gap-2 text-sm text-gray-700", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-red-500 mt-1", children: "✗" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: reason })
-          ] }, index)) })
-        ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Exemplos Práticos" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-4", children: scenarios.map((scenario, index) => /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: `p-4 ${scenario.color}`, children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-semibold mb-2", children: scenario.title }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-2 text-sm", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Situação:" }),
-              " ",
-              scenario.situation
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Ação:" }),
-              " ",
-              scenario.action
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Análise:" }),
-              " ",
-              scenario.reason
-            ] })
-          ] })
-        ] }, index)) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "text-2xl font-bold text-gray-900 mb-4 mt-8", children: "Processo Recomendado" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "1. Desenvolvimento" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700 text-sm", children: "Construa a tensão através de roleplay. Interaja com o outro jogador, desenvolva o conflito gradualmente." })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "2. Escalação" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700 text-sm", children: "Permita que o conflito escale naturalmente. Dê oportunidades para resolução pacífica antes de partir para violência." })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "3. Justificativa Clara" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700 text-sm", children: "Certifique-se de que há motivo claro e compreensível para o conflito. Outros jogadores devem entender o porquê." })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "text-lg font-semibold text-gray-900 mb-2", children: "4. Execução" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-700 text-sm", children: "Realize o PvP de forma justa, respeitando as regras de Fear RP e outras diretrizes do servidor." })
-          ] })
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(Card, { className: "p-4 bg-amber-50 border-amber-200", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-semibold text-amber-800 mb-2", children: "⚠️ Punições por RDM" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-amber-700 space-y-1", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Primeira ofensa:" }),
-            " Advertência + ressarcimento da vítima"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Segunda ofensa:" }),
-            " Ban temporário (1-3 dias)"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Terceira ofensa:" }),
-            " Ban temporário (1 semana)"
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Reincidência:" }),
-            " Ban permanente"
-          ] })
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 bg-green-50 border-green-200", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-green-800", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "Dica:" }),
-        " Quando em dúvida, sempre priorize o roleplay sobre o combate. É melhor desenvolver uma história interessante do que vencer uma luta."
-      ] }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/definicoes/meta-gaming", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Meta-gaming" })
-          ] })
-        ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 opacity-50", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Última página" }) }) }) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gray-200", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Atualizado há 5 dias" }) })
     ] })
   ] }) });
 }
@@ -23651,13 +23270,11 @@ function App() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/lore", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HistoriaPage, {}) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/diretrizes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DiretrizesPage, {}) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/faq", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FAQPage, {}) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/definicoes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DefinicoesPage, {}) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/itens-banidos", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ItensBanidosPage, {}) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/redes-sociais", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RedesSociaisPage, {}) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/dicas/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/definicoes/hard-rp", element: /* @__PURE__ */ jsxRuntimeExports.jsx(HardRPPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/definicoes/meta-gaming", element: /* @__PURE__ */ jsxRuntimeExports.jsx(MetaGamingPage, {}) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/definicoes/random-death-match", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RandomDeathMatchPage, {}) })
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) })
       ] }) })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
