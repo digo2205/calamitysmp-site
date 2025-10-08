@@ -27,7 +27,7 @@ export function Sidebar() {
         { icon: BookOpenText, label: 'História', path: '/principal/lore' },
         { icon: ListCheck, label: 'Diretrizes', path: '/principal/diretrizes' },
         { icon: HelpCircle, label: 'FAQ', path: '/principal/faq' },
-        { icon: BookMarked, label: 'Definições', path: '/definicoes/hard-rp' },
+        { icon: BookMarked, label: 'Definições', path: '/principal/definicoes' },
         { icon: Ban, label: 'Itens Banidos', path: '/principal/itens-banidos' },
         { icon: Hash, label: 'Redes Sociais', path: '/principal/redes-sociais' },
       ]

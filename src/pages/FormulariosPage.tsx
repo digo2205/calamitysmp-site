@@ -125,17 +125,13 @@ export function FormulariosPage() {
                 </div>
               </Card>
             </Link>
-            <Link to="/definicoes/hard-rp" className="flex-1">
-              <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <p className="text-sm text-gray-500 mb-1">Próximo</p>
-                    <h3 className="font-semibold text-gray-900">Hard-RP</h3>
-                  </div>
-                  <ChevronRight className="w-5 h-5 text-gray-400" />
+            <div className="flex-1">
+              <Card className="p-4 border border-gray-200 opacity-50">
+                <div className="flex items-center justify-center">
+                  <p className="text-sm text-gray-500">Última página</p>
                 </div>
               </Card>
-            </Link>
+          </div>
           </div>
           <div className="pt-8 border-t border-gray-200">
           </div>

@@ -72,12 +72,12 @@ export function FAQPage() {
                 </div>
               </Card>
             </Link>
-            <Link to="/principal/itens-banidos" className="flex-1">
+            <Link to="/principal/definicoes" className="flex-1">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Próximo</p>
-                    <h3 className="font-semibold text-gray-900">Itens Banidos</h3>
+                    <h3 className="font-semibold text-gray-900">Definições</h3>
                   </div>
                   <ChevronRight className="w-5 h-5 text-gray-400" />
                 </div>
