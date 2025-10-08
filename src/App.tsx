@@ -10,9 +10,7 @@ import { ItensBanidosPage } from './pages/ItensBanidosPage'
 import { RedesSociaisPage } from './pages/RedesSociaisPage'
 import { CriacaoPersonagemPage } from './pages/CriacaoPersonagemPage'
 import { FormulariosPage } from './pages/FormulariosPage'
-import { HardRPPage } from './pages/HardRPPage'
-import { MetaGamingPage } from './pages/MetaGamingPage'
-import { RandomDeathMatchPage } from './pages/RandomDeathMatchPage'
+import { DefinicoesPage } from './pages/DefinicoesPage'
 function App() {
   return (
     <Router>
@@ -26,13 +24,11 @@ function App() {
               <Route path="/principal/lore" element={<HistoriaPage />} />
               <Route path="/principal/diretrizes" element={<DiretrizesPage />} />
               <Route path="/principal/faq" element={<FAQPage />} />
+              <Route path="/principal/definicoes" element={<DefinicoesPage />} />
               <Route path="/principal/itens-banidos" element={<ItensBanidosPage />} />
               <Route path="/principal/redes-sociais" element={<RedesSociaisPage />} />
               <Route path="/dicas/criacao-de-personagem" element={<CriacaoPersonagemPage />} />
               <Route path="/inscricao/formularios" element={<FormulariosPage />} />
-              <Route path="/definicoes/hard-rp" element={<HardRPPage />} />
-              <Route path="/definicoes/meta-gaming" element={<MetaGamingPage />} />
-              <Route path="/definicoes/random-death-match" element={<RandomDeathMatchPage />} />
             </Routes>
           </main>
         </div>
