@@ -17429,22 +17429,32 @@ var Action;
 })(Action || (Action = {}));
 const PopStateEventType = "popstate";
 /**
- * Browser history stores the location in regular URLs. This is the standard for
- * most web apps, but it requires some configuration on the server to ensure you
- * serve the same app at multiple URLs.
+ * Hash history stores the location in window.location.hash. This makes it ideal
+ * for situations where you don't want to send the location to the server for
+ * some reason, either because you do cannot configure it or the URL space is
+ * reserved for something else.
  *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createbrowserhistory
+ * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createhashhistory
  */
-function createBrowserHistory(options) {
+function createHashHistory(options) {
   if (options === void 0) {
     options = {};
   }
-  function createBrowserLocation(window, globalHistory) {
+  function createHashLocation(window, globalHistory) {
     let {
-      pathname,
-      search,
-      hash
-    } = window.location;
+      pathname = "/",
+      search = "",
+      hash = ""
+    } = parsePath(window.location.hash.substr(1));
+    // Hash URL should always have a leading / just like window.location.pathname
+    // does, so if an app ends up at a route like /#something then we add a
+    // leading slash so all of our path-matching behaves the same as if it would
+    // in a browser router.  This is particularly important when there exists a
+    // root splat route (<Route path="*">) since that matches internally against
+    // "/*" and we'd expect /#something to 404 in a hash router app.
+    if (!pathname.startsWith("/") && !pathname.startsWith(".")) {
+      pathname = "/" + pathname;
+    }
     return createLocation("", {
       pathname,
       search,
@@ -17453,10 +17463,20 @@ function createBrowserHistory(options) {
     // state defaults to `null` because `window.history.state` does
     globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
   }
-  function createBrowserHref(window, to) {
-    return typeof to === "string" ? to : createPath(to);
+  function createHashHref(window, to) {
+    let base = window.document.querySelector("base");
+    let href = "";
+    if (base && base.getAttribute("href")) {
+      let url = window.location.href;
+      let hashIndex = url.indexOf("#");
+      href = hashIndex === -1 ? url : url.slice(0, hashIndex);
+    }
+    return href + "#" + (typeof to === "string" ? to : createPath(to));
   }
-  return getUrlBasedHistory(createBrowserLocation, createBrowserHref, null, options);
+  function validateHashLocation(location, to) {
+    warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
+  }
+  return getUrlBasedHistory(createHashLocation, createHashHref, validateHashLocation, options);
 }
 function invariant(value, message) {
   if (value === false || value === null || typeof value === "undefined") {
@@ -17590,6 +17610,7 @@ function getUrlBasedHistory(getLocation, createHref, validateLocation, options) 
   function push(to, state) {
     action = Action.Push;
     let location = createLocation(history.location, to, state);
+    if (validateLocation) validateLocation(location, to);
     index = getIndex() + 1;
     let historyState = getHistoryState(location, index);
     let url = history.createHref(location);
@@ -17619,6 +17640,7 @@ function getUrlBasedHistory(getLocation, createHref, validateLocation, options) 
   function replace(to, state) {
     action = Action.Replace;
     let location = createLocation(history.location, to, state);
+    if (validateLocation) validateLocation(location, to);
     index = getIndex();
     let historyState = getHistoryState(location, index);
     let url = history.createHref(location);
@@ -18793,16 +18815,16 @@ try {
 }
 const START_TRANSITION = "startTransition";
 const startTransitionImpl = React$1[START_TRANSITION];
-function BrowserRouter(_ref4) {
+function HashRouter(_ref5) {
   let {
     basename,
     children,
     future,
     window: window2
-  } = _ref4;
+  } = _ref5;
   let historyRef = reactExports.useRef();
   if (historyRef.current == null) {
-    historyRef.current = createBrowserHistory({
+    historyRef.current = createHashHistory({
       window: window2,
       v5Compat: true
     });
@@ -23620,7 +23642,7 @@ function RandomDeathMatchPage() {
 }
 
 function App() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-white flex flex-col", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(HashRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-white flex flex-col", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-1", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(Sidebar, {}),
