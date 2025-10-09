@@ -10,7 +10,7 @@ export function CriacaoPersonagemPage() {
       icon: <User className="w-5 h-5 text-blue-600" />,
       tips: [
         "Qual é o nome do seu personagem? (considere utilizar nomes antigos como, Dante, Isabela, etc)",
-        "Qual é a origem do seu personagem?",
+        "Qual é a origem do seu personagem? (lembre-se que a história se passa na Inglaterra)",
         "O que ele era antes da explosão?"
       ]
     },
@@ -22,7 +22,7 @@ export function CriacaoPersonagemPage() {
         "O que ele fazia para viver?",
         "Como era sua vida?",
         "Tinha família ou amigos?",
-        "Como são suas memórias SUPERFICIAIS do passado?"
+        "Como são suas memórias SUPERFICIAIS do passado? (lembre-se que você não lembra das pessoas que conhecia antes da explosão, apenas de fatos gerais)",
       ]
     },
     {
@@ -49,7 +49,7 @@ export function CriacaoPersonagemPage() {
   <UserPen className="w-5 h-5 text-gray-600" />
 </div>
               <h1 className="text-3xl font-bold text-gray-900">
-                Criação de Personagem
+                Regras/Dicas de Criação de Personagem
               </h1>
             </div>
           </div>
@@ -64,7 +64,7 @@ export function CriacaoPersonagemPage() {
               <Lightbulb className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" />
               <div className="text-sm text-blue-800">
                 <p className="font-semibold mb-1">Dica Importante</p>
-                <p>Lembre-se que sua história deve contar como era sua vida em 1815, até o momento da explosão de mana.</p>
+                <p>Lembre-se que sua história deve contar como era sua vida em 1815 e deve se passar na Inglaterra, até o momento da explosão de mana.</p>
               </div>
             </div>
           </Card>
@@ -114,11 +114,10 @@ export function CriacaoPersonagemPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-green-700">
               <div>□ Nome e idade definidos</div>
-              <div>□ Profissão ou papel social</div>
+              <div>□ Se passa em 1815 ou até 23 anos antes e na Inglaterra</div>
               <div>□ História pessoal coerente</div>
               <div>□ Personalidade balanceada</div>
               <div>□ Motivações claras</div>
-              <div>□ Conexão com sua vida de 1815</div>
             </div>
           </Card>
           <div className="flex justify-between gap-4">
