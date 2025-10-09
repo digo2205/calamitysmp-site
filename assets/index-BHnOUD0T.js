@@ -19573,7 +19573,7 @@ function Sidebar({ mobile }) {
         { icon: ListCheck, label: "Diretrizes", path: "/principal/diretrizes" },
         { icon: CircleHelp, label: "FAQ", path: "/principal/faq" },
         { icon: BookMarked, label: "Definições", path: "/principal/definicoes" },
-        { icon: UserPen, label: "Regras/Dicas de Criação de Personagem", path: "/principal/criacaopersonagem" },
+        { icon: UserPen, label: "Regras/Dicas de Criação de Personagem", path: "/principal/criacao-de-personagem" },
         { icon: Ban, label: "Itens Banidos", path: "/principal/itens-banidos" },
         { icon: Hash, label: "Redes Sociais", path: "/principal/redes-sociais" }
       ]
@@ -23317,7 +23317,7 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/definicoes", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DefinicoesPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/itens-banidos", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ItensBanidosPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/redes-sociais", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RedesSociaisPage, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/dicas/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
