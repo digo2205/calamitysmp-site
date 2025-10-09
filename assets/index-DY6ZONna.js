@@ -19573,14 +19573,9 @@ function Sidebar({ mobile }) {
         { icon: ListCheck, label: "Diretrizes", path: "/principal/diretrizes" },
         { icon: CircleHelp, label: "FAQ", path: "/principal/faq" },
         { icon: BookMarked, label: "Definições", path: "/principal/definicoes" },
+        { icon: UserPen, label: "Regras/Dicas de Criação de Personagem", path: "/principal/regras-dicas-criacao-de-personagem" },
         { icon: Ban, label: "Itens Banidos", path: "/principal/itens-banidos" },
         { icon: Hash, label: "Redes Sociais", path: "/principal/redes-sociais" }
-      ]
-    },
-    {
-      title: "DICAS",
-      items: [
-        { icon: UserPen, label: "Criação de Personagem", path: "/dicas/criacao-de-personagem" }
       ]
     },
     {
@@ -22957,7 +22952,7 @@ function CriacaoPersonagemPage() {
       icon: /* @__PURE__ */ jsxRuntimeExports.jsx(User, { className: "w-5 h-5 text-blue-600" }),
       tips: [
         "Qual é o nome do seu personagem? (considere utilizar nomes antigos como, Dante, Isabela, etc)",
-        "Qual é a origem do seu personagem?",
+        "Qual é a origem do seu personagem? (lembre-se que a história se passa na Inglaterra)",
         "O que ele era antes da explosão?"
       ]
     },
@@ -22969,7 +22964,7 @@ function CriacaoPersonagemPage() {
         "O que ele fazia para viver?",
         "Como era sua vida?",
         "Tinha família ou amigos?",
-        "Como são suas memórias SUPERFICIAIS do passado?"
+        "Como são suas memórias SUPERFICIAIS do passado? (lembre-se que você não lembra das pessoas que conhecia antes da explosão, apenas de fatos gerais)"
       ]
     },
     {
@@ -22989,7 +22984,7 @@ function CriacaoPersonagemPage() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-screen-2xl py-8 px-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-3xl mx-auto space-y-6", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("header", { className: "mb-6 space-y-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-between", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(UserPen, { className: "w-5 h-5 text-gray-600" }) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold text-gray-900", children: "Criação de Personagem" })
+      /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-3xl font-bold text-gray-900", children: "Regras/Dicas de Criação de Personagem" })
     ] }) }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-6", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-gray-600", children: "Criar um personagem envolvente é essencial para uma boa experiência de roleplay. Siga este guia para desenvolver um personagem memorável e coerente com o mundo do CalamitySMP." }),
@@ -22997,7 +22992,7 @@ function CriacaoPersonagemPage() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Lightbulb, { className: "w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-sm text-blue-800", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-semibold mb-1", children: "Dica Importante" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Lembre-se que sua história deve contar como era sua vida em 1815, até o momento da explosão de mana." })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { children: "Lembre-se que sua história deve contar como era sua vida em 1815 e deve se passar na Inglaterra, até o momento da explosão de mana." })
         ] })
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "space-y-6", children: characterSteps.map((step, index) => /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-4", children: [
@@ -23044,11 +23039,10 @@ function CriacaoPersonagemPage() {
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-green-700", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Nome e idade definidos" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Profissão ou papel social" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Se passa em 1815 ou até 23 anos antes e na Inglaterra" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ História pessoal coerente" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Personalidade balanceada" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Motivações claras" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Conexão com sua vida de 1815" })
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { children: "□ Motivações claras" })
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
