@@ -22931,15 +22931,14 @@ function RedesSociaisPage() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/dicas/criacao-de-personagem", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/inscricao/formularios", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Formulários" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
         ] }) }) })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-8 border-t border-gray-200", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Atualizado há 2 dias" }) })
+      ] })
     ] })
   ] }) });
 }
