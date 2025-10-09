@@ -152,7 +152,7 @@ export function DefinicoesPage() {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-sm text-gray-500 mb-1">Próximo</p>
-                    <h3 className="font-semibold text-gray-900">Itens Banidos</h3>
+                    <h3 className="font-semibold text-gray-900">Criação de Personagem</h3>
                   </div>
                   <ChevronRight className="w-5 h-5 text-gray-400" />
                 </div>
