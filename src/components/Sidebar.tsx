@@ -26,7 +26,7 @@ export function Sidebar({ mobile }: { mobile?: boolean }) {
         { icon: ListCheck, label: 'Diretrizes', path: '/principal/diretrizes' },
         { icon: HelpCircle, label: 'FAQ', path: '/principal/faq' },
         { icon: BookMarked, label: 'Definições', path: '/principal/definicoes' },
-        { icon: UserPen, label: 'Regras/Dicas de Criação de Personagem', path: '/principal/regras-dicas-criacao-de-personagem' },
+        { icon: UserPen, label: 'Regras/Dicas de Criação de Personagem', path: '/principal/criacaopersonagem' },
         { icon: Ban, label: 'Itens Banidos', path: '/principal/itens-banidos' },
         { icon: Hash, label: 'Redes Sociais', path: '/principal/redes-sociais' },
       ]

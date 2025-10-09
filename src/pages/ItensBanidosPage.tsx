@@ -83,7 +83,7 @@ export function ItensBanidosPage() {
                   <ChevronLeft className="w-5 h-5 text-gray-400" />
                   <div className="text-right">
                     <p className="text-sm text-gray-500 mb-1">Anterior</p>
-                    <h3 className="font-semibold text-gray-900">Definições</h3>
+                    <h3 className="font-semibold text-gray-900">Criação de Personagem</h3>
                   </div>
                 </div>
               </Card>
