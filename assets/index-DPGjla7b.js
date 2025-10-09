@@ -19573,7 +19573,7 @@ function Sidebar({ mobile }) {
         { icon: ListCheck, label: "Diretrizes", path: "/principal/diretrizes" },
         { icon: CircleHelp, label: "FAQ", path: "/principal/faq" },
         { icon: BookMarked, label: "Definições", path: "/principal/definicoes" },
-        { icon: UserPen, label: "Regras/Dicas de Criação de Personagem", path: "/principal/regras-dicas-criacao-de-personagem" },
+        { icon: UserPen, label: "Regras/Dicas de Criação de Personagem", path: "/principal/criacaopersonagem" },
         { icon: Ban, label: "Itens Banidos", path: "/principal/itens-banidos" },
         { icon: Hash, label: "Redes Sociais", path: "/principal/redes-sociais" }
       ]
@@ -22605,7 +22605,7 @@ function ItensBanidosPage() {
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Definições" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
           ] })
         ] }) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/redes-sociais", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
@@ -23046,17 +23046,17 @@ function CriacaoPersonagemPage() {
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/redes-sociais", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/definicoes", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Redes Sociais" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Definições" })
           ] })
         ] }) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/inscricao/formularios", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Formulários" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
         ] }) }) })
@@ -23298,7 +23298,7 @@ function DefinicoesPage() {
         /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/itens-banidos", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5 text-gray-400" })
         ] }) }) })
