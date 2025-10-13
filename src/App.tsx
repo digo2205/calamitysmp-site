@@ -12,6 +12,7 @@ import { CriacaoPersonagemPage } from './pages/CriacaoPersonagemPage'
 import { FormulariosPage } from './pages/FormulariosPage'
 import { DefinicoesPage } from './pages/DefinicoesPage'
 import { DownloadModpackPage } from './pages/DownloadPage'
+import { TawkToWidget } from './components/TawkToWidget';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           </Routes>
         </Layout>
         <Footer />
+        <TawkToWidget />
       </div>
     </Router>
   )
