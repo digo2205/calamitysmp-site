@@ -2,10 +2,11 @@ import { useEffect } from "react";
 
 export function DownloadModpackPage() {
   useEffect(() => {
-    // Caminho do arquivo dentro da pasta "public"
-    const fileUrl = "/calamity-modpack-beta-2.2.zip";
+    // URL direta do Dropbox (com ?dl=1)
+    const fileUrl =
+      "https://www.dropbox.com/scl/fi/i11irfnx6p2nz9alk9iu7/calamity-modpack-beta-2.2.zip?rlkey=ov16rop5667i8m1z36pxw5f8m&dl=1";
 
-    // Cria um link temporário e dispara o download automaticamente
+    // Cria um link temporário e dispara o download
     const link = document.createElement("a");
     link.href = fileUrl;
     link.download = "calamity-modpack-beta-2.2.zip";
@@ -22,7 +23,7 @@ export function DownloadModpackPage() {
       <p className="text-gray-600">
         Se o download não começar automaticamente,{" "}
         <a
-          href="/calamity-modpack-beta-2.2.zip"
+          href="https://www.dropbox.com/scl/fi/i11irfnx6p2nz9alk9iu7/calamity-modpack-beta-2.2.zip?rlkey=ov16rop5667i8m1z36pxw5f8m&dl=1"
           className="text-blue-600 underline"
         >
           clique aqui
