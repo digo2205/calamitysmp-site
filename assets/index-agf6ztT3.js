@@ -22601,7 +22601,7 @@ function ItensBanidosPage() {
         " Reporte imediatamente à administração. Não tente usar ou esconder o item, pois isso pode resultar em punições adicionais."
       ] }) }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/definicoes", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/criacao-de-personagem", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
@@ -23052,7 +23052,7 @@ function CriacaoPersonagemPage() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Definições" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/inscricao/formularios", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/itens-banidos", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Itens Banidos" })
@@ -23151,11 +23151,11 @@ function FormulariosPage() {
         ] })
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex justify-between gap-4", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/dicas/criacao-de-personagem", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/redes-sociais", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5 text-gray-400" }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-right", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Anterior" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Redes Sociais" })
           ] })
         ] }) }) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 opacity-50", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex items-center justify-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500", children: "Última página" }) }) }) })
@@ -23294,7 +23294,7 @@ function DefinicoesPage() {
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "FAQ" })
           ] })
         ] }) }) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/itens-banidos", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/principal/criacao-de-personagem", className: "flex-1", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Card, { className: "p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-gray-500 mb-1", children: "Próximo" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-semibold text-gray-900", children: "Criação de Personagem" })
@@ -23304,6 +23304,34 @@ function DefinicoesPage() {
       ] })
     ] })
   ] }) });
+}
+
+function DownloadModpackPage() {
+  reactExports.useEffect(() => {
+    const fileUrl = "https://www.dropbox.com/scl/fi/i11irfnx6p2nz9alk9iu7/calamity-modpack-beta-2.2.zip?rlkey=ov16rop5667i8m1z36pxw5f8m&dl=1";
+    const link = document.createElement("a");
+    link.href = fileUrl;
+    link.download = "calamity-modpack-beta-2.2.zip";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col items-center justify-center h-screen text-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-2xl font-semibold text-gray-900 mb-2", children: "Baixando a modpack..." }),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-gray-600", children: [
+      "Se o download não começar automaticamente,",
+      " ",
+      /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "a",
+        {
+          href: "https://www.dropbox.com/scl/fi/i11irfnx6p2nz9alk9iu7/calamity-modpack-beta-2.2.zip?rlkey=ov16rop5667i8m1z36pxw5f8m&dl=1",
+          className: "text-blue-600 underline",
+          children: "clique aqui"
+        }
+      ),
+      "."
+    ] })
+  ] });
 }
 
 function App() {
@@ -23318,7 +23346,8 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/itens-banidos", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ItensBanidosPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/redes-sociais", element: /* @__PURE__ */ jsxRuntimeExports.jsx(RedesSociaisPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/principal/criacao-de-personagem", element: /* @__PURE__ */ jsxRuntimeExports.jsx(CriacaoPersonagemPage, {}) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) })
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/modpack/download", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DownloadModpackPage, {}) })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
   ] }) });
