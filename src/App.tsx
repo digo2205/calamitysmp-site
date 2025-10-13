@@ -11,6 +11,7 @@ import { RedesSociaisPage } from './pages/RedesSociaisPage'
 import { CriacaoPersonagemPage } from './pages/CriacaoPersonagemPage'
 import { FormulariosPage } from './pages/FormulariosPage'
 import { DefinicoesPage } from './pages/DefinicoesPage'
+import { DownloadModpackPage } from './pages/DownloadPage'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/principal/redes-sociais" element={<RedesSociaisPage />} />
             <Route path="/principal/criacao-de-personagem" element={<CriacaoPersonagemPage />} />
             <Route path="/inscricao/formularios" element={<FormulariosPage />} />
+            <Route path="/modpack/download" element={<DownloadModpackPage />} />
           </Routes>
         </Layout>
         <Footer />

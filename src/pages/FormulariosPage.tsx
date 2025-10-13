@@ -114,13 +114,13 @@ export function FormulariosPage() {
             </ul>
           </Card>
           <div className="flex justify-between gap-4">
-            <Link to="/dicas/criacao-de-personagem" className="flex-1">
+            <Link to="/principal/redes-sociais" className="flex-1">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">
                 <div className="flex items-center justify-between">
                   <ChevronLeft className="w-5 h-5 text-gray-400" />
                   <div className="text-right">
                     <p className="text-sm text-gray-500 mb-1">Anterior</p>
-                    <h3 className="font-semibold text-gray-900">Criação de Personagem</h3>
+                    <h3 className="font-semibold text-gray-900">Redes Sociais</h3>
                   </div>
                 </div>
               </Card>

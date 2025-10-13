@@ -77,7 +77,7 @@ export function ItensBanidosPage() {
             </p>
           </Card>
           <div className="flex justify-between gap-4">
-            <Link to="/principal/definicoes" className="flex-1">
+            <Link to="/principal/criacao-de-personagem" className="flex-1">
               <Card className="p-4 border border-gray-200 hover:border-gray-300 transition-colors cursor-pointer">
                 <div className="flex items-center justify-between">
                   <ChevronLeft className="w-5 h-5 text-gray-400" />
