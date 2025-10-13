@@ -23334,6 +23334,23 @@ function DownloadModpackPage() {
   ] });
 }
 
+function TawkToWidget() {
+  reactExports.useEffect(() => {
+    if (document.getElementById("tawkto-script")) return;
+    const s1 = document.createElement("script");
+    s1.id = "tawkto-script";
+    s1.async = true;
+    s1.src = "https://embed.tawk.to/68ecfc0ce9a9181952e59c5d/1j7erh49u";
+    s1.charset = "UTF-8";
+    s1.setAttribute("crossorigin", "*");
+    document.body.appendChild(s1);
+    return () => {
+      document.body.removeChild(s1);
+    };
+  }, []);
+  return null;
+}
+
 function App() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx(HashRouter, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-h-screen bg-white flex flex-col", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx(Header, {}),
@@ -23349,7 +23366,8 @@ function App() {
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/inscricao/formularios", element: /* @__PURE__ */ jsxRuntimeExports.jsx(FormulariosPage, {}) }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/modpack/download", element: /* @__PURE__ */ jsxRuntimeExports.jsx(DownloadModpackPage, {}) })
     ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {})
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Footer, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(TawkToWidget, {})
   ] }) });
 }
 
