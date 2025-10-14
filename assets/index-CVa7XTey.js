@@ -23091,9 +23091,9 @@ function FormulariosPage() {
     {
       title: "Formulário de Inscrição de Elemental",
       description: "Formulário para tornar-se um elemental (são como pets/ovos) no servidor",
-      status: "Indisponível",
+      status: "Disponível",
       link: "https://forms.gle/B73qY4GDzAP9Kqxr6",
-      statusColor: "bg-red-100 text-red-800",
+      statusColor: "bg-green-100 text-green-800",
       requirements: [
         "Formulário aprovado pelos administradores;",
         "14 anos ou mais."
