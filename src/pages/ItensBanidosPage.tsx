@@ -7,7 +7,18 @@ export function ItensBanidosPage() {
     {
       category: "Itens Banidos",
       items: [
-        "undefined"
+        "Ender Manuscript",
+        "Ring of Invisibility",
+        "Ring of Undying",
+        "Ring of Regeneration",
+        "Ring of Speed",
+        "Ring of Hungerless",
+        "Ring of Knockback Resistance",
+        "Ring of Wither",
+        "Nuclear Bomb",
+        "Charms do Chromatic Return",
+        "Glyphs do Ars Nouveau (só pode utilizar os que a Ordem Solar dar para você)",
+        "Ring of Flight (somente Elementais)",
       ]
     }
   ]
